@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './Footer.css';
+import React, { Component } from 'react'; //same thing  import react and the Component obj
+import './Footer.css';  //stylesheet
 
-class Footer extends Component {
+class Footer extends Component { //define the footer class which will render a footer element with the class Footer
   render() {
     return (
         <footer className="Footer">
@@ -11,4 +11,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Footer; //export the Footer component
