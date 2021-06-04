@@ -27,4 +27,4 @@ class App extends Component {
   }
 }
 
-export default App; // allows App class to be used outside of this file
+export default App; // Allows App class to be used outside of this file
