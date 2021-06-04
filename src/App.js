@@ -10,7 +10,7 @@ class App extends Component { //uses the Component object as a base to create an
   render() { //it will examine props, and useState to create and display (render) the provided code
     return ( //return the code that defines the App component for render to interpret and process which will be the main page of our application
       <div className="App"> {/* create/insert an opening div with a class of app */}
-        <Header backColor="green" width="50%"></Header> {/* create/insert a header component and pass it the color green as backColor and 50% as width through the props objects */}
+        <Header backColor="yellow" width="90%"></Header> {/* create/insert a header component and pass it the color green as backColor and 50% as width through the props objects */}
         <SectionMain></SectionMain> {/* create/insert a sectionMain component */}
         <Aside></Aside> {/* create/insert an aside component */}
         <Footer></Footer> {/* create/insert a footer component */}
