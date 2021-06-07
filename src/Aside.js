@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './Aside.css';
+import React, { Component } from 'react'; //import react and component
+import './Aside.css'; //import css styling
 
-class Aside extends Component {
+class Aside extends Component { //creating Aside object of Component
   render() {
     return (
         <aside className="Aside">
@@ -11,4 +11,4 @@ class Aside extends Component {
   }
 }
 
-export default Aside;
+export default Aside; //export Aside component

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import './SectionMain.css';
+import React, { Component } from 'react'; //import react and component
+import './SectionMain.css'; //import styling
 
-class SectionMain extends Component {
+class SectionMain extends Component { //create class SectionMain from Component
   render() {
-    return (
+    return ( //return section with className SectionMain
         <section className="SectionMain">
         </section>
 
@@ -11,4 +11,4 @@ class SectionMain extends Component {
   }
 }
 
-export default SectionMain;
+export default SectionMain; //export SectionMain component
