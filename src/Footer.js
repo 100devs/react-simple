@@ -9,6 +9,7 @@ class Footer extends Component {
   render() {
     //    return rendered HTML of the footer
     return (
+//   footer has class name so we can apply CSS styling to it, camelCase indicates JSX
         <footer className="Footer">
         </footer>
 
