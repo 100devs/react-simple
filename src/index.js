@@ -11,7 +11,7 @@ import App from './App';
 // for functionality during loss of connectivity
 import registerServiceWorker from './registerServiceWorker';
 
-// virtual DOM renders the App, root is index.html in public folder
+// virtual DOM renders the App component into root (a div in public/index.html)
 ReactDOM.render(<App />, document.getElementById('root'));
 // calls registerServiceWorker function
 registerServiceWorker();
