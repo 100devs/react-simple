@@ -1,8 +1,10 @@
+/* create class "App" */
 .App { 
 /* aligns all text centered */
   text-align: center;
 }
 
+/* create class "App-logo */
 .App-logo {
 /* logo animation 20 second spin loop  */
   animation: App-logo-spin infinite 20s linear;
@@ -10,6 +12,7 @@
   height: 80px;
 }
 
+/* create class "App-header */
 .App-header {
 /* header background color   */
   background-color: #222;
@@ -21,11 +24,13 @@
   color: white;
 }
 
+/* create class "App-title */
 .App-title {
 /* title font size  */
   font-size: 1.5em;
 }
 
+/* create class "App-intro */
 .App-intro {
 /* intro font size   */
   font-size: large;
