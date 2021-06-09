@@ -8,6 +8,7 @@
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
 
+//this creates a variable about the local host and what to produce if it is being run locally 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -18,6 +19,7 @@ const isLocalhost = Boolean(
     )
 );
 
+//this exports the function register() and its in line with the app being ran in produce and serviceWorker modes 
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
@@ -28,7 +30,8 @@ export default function register() {
       // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
       return;
     }
-
+     
+    //there is an event listener and will load different files 
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
