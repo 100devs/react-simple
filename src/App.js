@@ -1,5 +1,8 @@
+//import the react npm that was installed
 import React, { Component } from 'react';
+//import the app css styling into this js file
 import './App.css';
+//import the header information
 import Header from './Header';
 import SectionMain from './SectionMain';
 import Aside from './Aside';
