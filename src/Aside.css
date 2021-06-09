@@ -1,6 +1,5 @@
-/* declare class for aside section */
+/* declare class for aside section, set height, width, background color, and float it to the left edge of the viewport */
 .Aside{
-/*    */
   height: 300px;
   width: 20%;
   background: lightgreen;
