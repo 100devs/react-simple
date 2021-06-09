@@ -1,3 +1,4 @@
+/* create class "Footer", sets section height, background color, and moves footer below any floating elements */
 .Footer{
   height: 200px;
   background: orange;

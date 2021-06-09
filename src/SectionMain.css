@@ -1,3 +1,4 @@
+/* declare class for main content section, set height, width, background color, and float it to the left edge of the viewport or preceding section */
 .SectionMain{
   height: 300px;
   width: 80%;
