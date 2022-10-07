@@ -155,6 +155,16 @@ They will not be included in the production build so you can use them for things
 
 ## Available Scripts
 
+To correct error "0308010C:digital envelope routines::unsupported",
+
+The Correct (safe) Solution
+Use an up-to-date version of Node.js, and also use packages that are up-to-date with security fixes.
+
+For many people, the following command will fix the issue:
+
+### `npm audit fix --force`
+
+
 In the project directory, you can run:
 
 ### `npm start`
